@@ -34,6 +34,46 @@ body {
   height: 20px;
   width: 70px;
   background: #3b3b3b;
+  animation-play-state: inherit;
+}
+
+#rawr {
+  position: relative;
+  left: -10px;
+  top: -40px;
+  height: 60px;
+  width: 93px;
+  background: #000;
+  animation-name: rawr;
+  animation-duration: 10s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
+}
+
+#rawr2 {
+  position: relative;
+  left: 6px;
+  top: -120px;
+  height: 100px;
+  width: 60px;
+  background: #000;
+  animation-name: rawr;
+  animation-duration: 10s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
+}
+
+#fireball {
+  position: relative;
+  left: 16px;
+  top: -190px;
+  height: 50px;
+  width: 40px;
+  background: red;
+  animation-name: fireball;
+  animation-duration: 10s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
 }
 
 #eyebrow1 {
@@ -257,6 +297,64 @@ body {
   }
   59% {
     opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rawr {
+  0% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fireball {
+  0% {
+    opacity: 0;
+  }
+  11% {
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+    background-color: red;
+  }
+  20% {
+    opacity: 1;
+    background-color: yellow;
+  }
+  35% {
+    opacity: 1;
+    background-color: orange;
+  }
+  59% {
+    opacity: 1;
+    background-color: red;
   }
   60% {
     opacity: 0;
