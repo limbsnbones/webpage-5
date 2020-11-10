@@ -59,10 +59,23 @@ body {
   background: #3b3b3b;
 }
 
+#eyelid {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  height: 30px;
+  width: 40px;
+  background: #000;
+  animation-name: snap-open;
+  animation-duration: 5s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
+}
+
 #wrinkle {
   position: relative;
   left: -15px;
-  top: -65px;
+  top: -95px;
   height: 20px;
   width: 15px;
   background: #CCC;
@@ -71,7 +84,7 @@ body {
 #tears {
   position: relative;
   left: 0px;
-  top: 20px;
+  top: -10px;
   height: 50px;
   width: 15px;
   background: #CCC;
@@ -80,7 +93,7 @@ body {
 #tears2 {
   position: relative;
   left: 15px;
-  top: -30px;
+  top: -60px;
   height: 15px;
   width: 15px;
   background: #CCC;
@@ -114,10 +127,23 @@ body {
   background: #3b3b3b;
 }
 
+#eyelid2 {
+  position: relative;
+  left: 10px;
+  top: -10px;
+  height: 30px;
+  width: 40px;
+  background: #000;
+  animation-name: snap-open;
+  animation-duration: 5s;
+  animation-play-state: inherit;
+  animation-iteration-count: infinite;
+}
+
 #wrinkle2 {
   position: relative;
   left: 60px;
-  top: -55px;
+  top: -85px;
   height: 20px;
   width: 15px;
   background: #CCC;
@@ -126,7 +152,7 @@ body {
 #tears3 {
   position: relative;
   left: 45px;
-  top: 20px;
+  top: -10px;
   height: 40px;
   width: 15px;
   background: #CCC;
@@ -135,7 +161,7 @@ body {
 #tears4 {
   position: relative;
   left: 30px;
-  top: -20px;
+  top: -50px;
   height: 15px;
   width: 15px;
   background: #CCC;
@@ -184,4 +210,26 @@ body {
   height: 200px;
   width: 35px;
   background: #CCC;
+}
+
+@keyframes snap-open {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  99%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#gbody:hover {
+  animation-play-state: running;
 }
