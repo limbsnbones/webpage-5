@@ -2,6 +2,13 @@ body {
   background-color: #561d12;
 }
 
+h1 {
+  position: fixed;
+  top: 100px;
+  left: 290px;
+  color: #FFF;
+}
+
 #container {
   position: relative;
   margin: 0 auto;
@@ -235,6 +242,60 @@ body {
   position: relative;
   left: 30px;
   top: -65px;
+  height: 15px;
+  width: 15px;
+  background: #CCC;
+}
+
+#cheek1 {
+  position: fixed;
+  top: 310px;
+  left: 618px;
+  height: 15px;
+  width: 55px;
+  background: #CCC;
+}
+
+#cheek2 {
+  position: fixed;
+  top: 340px;
+  left: 618px;
+  height: 15px;
+  width: 35px;
+  background: #CCC;
+}
+
+#cheek3 {
+  position: fixed;
+  top: 370px;
+  left: 618px;
+  height: 15px;
+  width: 15px;
+  background: #CCC;
+}
+
+#cheek4 {
+  position: fixed;
+  top: 310px;
+  left: 863px;
+  height: 15px;
+  width: 55px;
+  background: #CCC;
+}
+
+#cheek5 {
+  position: fixed;
+  top: 340px;
+  left: 883px;
+  height: 15px;
+  width: 35px;
+  background: #CCC;
+}
+
+#cheek6 {
+  position: fixed;
+  top: 370px;
+  left: 903px;
   height: 15px;
   width: 15px;
   background: #CCC;
